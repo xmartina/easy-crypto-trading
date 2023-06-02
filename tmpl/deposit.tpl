@@ -146,7 +146,7 @@
     				<label for="exampleInputEmail1">Amount to Spend </label>
                     <input type=text name=amount value='{$min_deposit}' class="form-control" size=15 style="text-align:right;">
                     
-                    <div class="d-flex justify-content-space-around">
+                    <div class="d-flex justify-content-space-around flex-wrap">
                      {section name=p loop=$ps}
                     {if $ps[p].balance > 0 and $ps[p].status == 1}
                     <input type=radio name=type value="account_{$ps[p].id}">
