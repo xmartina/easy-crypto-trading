@@ -109,15 +109,15 @@
 
     </div>
 	{literal}
-    <script src="home/js/jquery.js"></script>
-    <script src="home/js/popper.min.js"></script>
-    <script src="home/js/bootstrap.min.js"></script>
-    <script src="home/js/jquery.fancybox.js"></script>
-    <script src="home/js/owl.js"></script>
-    <script src="home/js/wow.js"></script>
-    <script src="home/js/appear.js"></script>
-    <script src="home/js/scrollbar.js"></script>
-    <script src="home/js/script.js"></script>
+    <script src="/home/js/jquery.js"></script>
+    <script src="/home/js/popper.min.js"></script>
+    <script src="/home/js/bootstrap.min.js"></script>
+    <script src="/home/js/jquery.fancybox.js"></script>
+    <script src="/home/js/owl.js"></script>
+    <script src="/home/js/wow.js"></script>
+    <script src="/home/js/appear.js"></script>
+    <script src="/home/js/scrollbar.js"></script>
+    <script src="/home/js/script.js"></script>
 
 
 
