@@ -73,7 +73,6 @@
                                             <li>
                                                 <span class="icon flaticon-mails"></span>
                                                 <div class="text"><a href="#"></a><br><a href="mailto:{$siteEmail}">{$siteEmail}</a></div>
-                                                <div class="text"><a href="tel:{$sitePhone}">{$sitePhone}</a></div>
                                             </li>
                                         </ul>
                                     </div>
