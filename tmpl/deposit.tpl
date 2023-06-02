@@ -158,9 +158,10 @@
                     
                      {section name=p loop=$ps}
                     {if $ps[p].status}
-                    <input type=radio class="mx-3 my-2" name=type value="process_{$ps[p].id}" {if $smarty.section.p.index == 0}checked{/if}>
-                    <div class="my-2">Spend from {$ps[p].name}</div>
-                    
+                        <div class="py-1 px-3 bg-outline-warning">
+                            <input type=radio class="mx-3 my-2" name=type value="process_{$ps[p].id}" {if $smarty.section.p.index == 0}checked{/if}>
+                            <div class="my-2">Spend from {$ps[p].name}</div>
+                        </div>
                     {/if}
                     {/section}
                     </div>
